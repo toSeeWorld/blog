@@ -1,0 +1,27 @@
+.class1 {
+    color: red;
+    margin: 50px * 10;
+}
+.class2 {
+    @extend .class1;
+    color: blue;
+}
+@mixin  left {
+    color: blue;
+    font: {
+        size: 14px;
+    }
+
+}
+@mixin round($property:all,$duration:0.5s,$timing:linear,$delay:0)  {
+    animation: $property $duration $timing $delay;
+    -webkit-animation: $property $duration $timing $delay;
+    -o-animation:$property $duration $timing $delay;;
+}
+div {
+    @include left;
+    @include round(left,1s ,linear , 0);
+}
+li {
+    @include round;
+}

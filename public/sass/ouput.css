@@ -1,0 +1,20 @@
+.class1, .class2 {
+  color: red;
+  margin: 500px; }
+
+.class2 {
+  color: blue; }
+
+div {
+  color: blue;
+  font-size: 14px;
+  animation: left 1s linear 0;
+  -webkit-animation: left 1s linear 0;
+  -o-animation: left 1s linear 0; }
+
+li {
+  animation: all 0.5s linear 0;
+  -webkit-animation: all 0.5s linear 0;
+  -o-animation: all 0.5s linear 0; }
+
+/*# sourceMappingURL=ouput.css.map */
