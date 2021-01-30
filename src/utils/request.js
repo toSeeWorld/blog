@@ -7,7 +7,7 @@ import { message } from 'antd';
 
 // create an axios instance
 const service = axios.create({
-  baseURL: process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:3001' : 'http://69.171.69.13:3001', // api的base_url
+  baseURL: process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:3001' : 'http://69.171.69.13:3001', // eslint-disable-line
   // headers: { 'content-type': 'application/x-www-form-urlencoded' },
   timeout: 20000 // request timeout,
   

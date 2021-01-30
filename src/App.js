@@ -10,7 +10,7 @@ const homeImg = {
   zIndex: 999,
   position:'left bottom'
 }
-export default () => {
+ const App = () => {
   return (
     <Provider store={store}>
       <div style={homeImg}>
@@ -21,3 +21,4 @@ export default () => {
     </Provider>
   )
 }
+export default App;

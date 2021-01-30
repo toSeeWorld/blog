@@ -6,9 +6,9 @@ import { Form } from 'antd';
 import { saveArticle } from '../../services';
 import { getDateFormate } from '../../utils/util';
 import AssureModal from './components/AssureModal'
-import 'animate.css'
+// import 'animate.css';
 export default class EditorDemo extends React.Component {
-  state = {
+  state = {   
     editorState: null,
     visible: false
   }
@@ -52,7 +52,6 @@ export default class EditorDemo extends React.Component {
   render() {
 
     const { editorState } = this.state
-    const date = new Date();
     return (
       <>
         <div className="animate__animated animate__backInLeft">

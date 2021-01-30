@@ -6,7 +6,7 @@ import { Form} from 'antd';
 import { editArticle } from '../../services';
 import { getDateFormate } from '../../utils/util';
 import {getArticleById} from '../../services'
-import 'animate.css'
+// import 'animate.css'
 export default class EditorDemo extends React.Component {
 
   state = {
